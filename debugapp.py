@@ -32,6 +32,9 @@ def index():
 def onas():
     return render_template('onas.html')
 
+@app.route('/ABC/')
+def ABC():
+    return render_template('ABC.html')
 
 ############################################################################
 if __name__ == '__main__':
